@@ -1,0 +1,514 @@
+<!-- 
+
+    Windows 7 Ultimate recreation! (By PeachiBee)
+        (Well not a very accurate recreation... Sorry guys... I grew up with Windows 10)
+    
+        Use:
+        - https://th.circlejourney.net/ for live edits!
+        - https://www.w3schools.com/ for any help with basic HTML!
+        - https://fontawesome.com/ for custom little icons!
+        
+        
+        Highlight these below with [Ctrl + f] to quickly change them across the whole HTML!
+        
+        - YOURUSERHERE (for URLs)
+        - Username (For names displayed)
+        - https://f2.toyhou.se/file/f2-toyhou-se/users/admin?6?0 (Pfp URL)
+        
+        Notes:
+            -   the pfp border comes from a reddit comment (https://www.reddit.com/r/FrutigerAero/s/qbhZRNRWAs)
+            -   One snippet of code has been nicked from https://toyhou.se/39834686.snippets-windows by bundleofstyx! (specifically the window buttons with their icons)
+            -   the rest of the graphics here are from tumblr, pintrest or wikipedia - a few being from screenshots I have snipped out, mostly being the buttons! This means that if you changet the background it might look a little ugly... Sorry guys... Oh yeah and some are from a logo wiki!!
+            -   Pop-up code snippet: https://toyhou.se/18470399.popup-code
+
+-->
+<div id="carousel1" class="carousel mx-auto" data-ride="false" data-pause="true">
+	<!-- 
+    
+        LOGIN SCREEN!!!!
+    
+    -->
+	<div class="carousel-item  active" style="transition-duration:0s; transition-delay: 0s;">
+		<div class="col-12 col-md-10 mx-auto p-3" style="background-image: url(https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/Windows7background); background-size: cover; height: 500px; background-position: center; border-radius: 5px">
+			<!-- Question Button-->
+			<a data-toggle="collapse" href="#popup" style="color: white">
+				<div style="backdrop-filter:blur(5px); border: 1px solid rgba(181,228,234,0.5); background-image: linear-gradient(180deg, rgba(82, 84, 88, 0.3), rgba(27, 31, 41, 0.3), rgba(27, 31, 41, 0.5), rgba(27, 31, 41, 0.4),  rgba(82, 84, 88, 0.3), rgba(82, 84, 88, 0.1)); border-radius: 5px; box-shadow:0 0 5px rgba(0, 0, 0, 1); position: absolute; margin: 5px; padding: 5px; width: 50px" align="center">
+					<i class="fa-regular fa-question" style="font-size: 0.75rem"></i>
+				</div>
+			</a>
+			<div style="display: flex; justify-content: center; align-items: center; margin-top: 15vh">
+				<!-- PROFILE PICTURE-->
+				<img src="https://f2.toyhou.se/file/f2-toyhou-se/users/admin?6?0" style="position: absolute; width: 125px; height: 125px; border-radius: 2px">
+				<!-- THIS IS THE PFP BORDER! -->
+				<a class="btn" href="#carousel1" data-slide="next">
+					<img src="https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/Windows%207%20border">
+				</a>
+			</div>
+			<div class="mt-2" style="display: flex; justify-content: center; align-items: center;">
+				<!-- Change this with your username!-->
+				<div style="background-color: white; color: #797979; border: 1.5px solid; border-radius: 3px; width: 250px; font-size: 0.77rem; padding: 2px;" align="left">
+					<p style="margin-left: 3px">Username</p>
+				</div>
+			</div>
+			<div class="mt-2" style="display: flex; justify-content: center; align-items: center;">
+				<!-- DO NOT PUT YOUR ACTUAL PASSWORD HERE... PUTTING THIS HERE JUST IN CASE... LEAVE THIS ALONE!!! -->
+				<div style="background-color: white; color: #797979; border: 1.5px solid; border-radius: 3px; width: 250px; font-size: 0.77rem; padding: 2px;" align="left">
+					<p style="margin-left: 3px">Password</p>
+				</div>
+				<!-- Button -->
+				<a class="btn" href="#carousel1" data-slide="next" style="position: absolute; margin-left: 290px">
+					<img src="https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/windows%207%20button%20wow.png" style="width: 32px">
+				</a>
+			</div>
+			<!-- More buttons -->
+			<div style="position: absolute; bottom: 10px; padding: 10px; width: 100%">
+				<img src="https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/another%20button.png" style="height: 30px; float: left">
+				<a href="https://toyhou.se/"><img src="https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/offmbutton.png" style="height: 30px; float: right; margin-right: 32px"></a>
+			</div>
+		</div>
+	</div>
+	<!-- 
+    
+        MAIN WINDOW!!!
+    
+    -->
+	<div class="carousel-item" style="transition-duration:0s; transition-delay: 0s;" id="main">
+		<div class="col-12 col-md-10 mx-auto" style="background-image: url(https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/Windows7background); background-size: cover; min-height: 500px; background-position: center; border-radius: 5px 5px 0px 0px">
+			<img src="https://upload.wikimedia.org/wikipedia/en/d/d3/Windows_7_Taskbar.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20221222004004" style="position: absolute; width: 100%; margin-left: -15px; bottom: 0">
+			<!-- This is the button that lets you go back to the login area! Don't move this as it'll mess up how it'll visually look as this just sits on top of the taskbar image! -->
+			<a class="btn" href="#carousel1" data-slide="next">
+				<div style="width: 42px; height: 42px; position: absolute; bottom: 0; margin-left: -25px">
+				</div>
+			</a>
+			
+			<!-- Window tabs plus the side thing, this is formatted like this so it doesn't look like shit on mobile, but it might still be janky depending on the device!-->
+			<div class="row no-gutters">
+			    
+				<!-- Left side of the screen -->
+				<div class="col-md-5 col-12" style="height: 436px;">
+					<div align="center" style="float: left">
+						<img src="https://64.media.tumblr.com/478bbba25bed4b65605b044c990c7ed2/a20059fa81c1769a-c1/s250x400/a2df785aaf1fb90ce5a90c6c55637f8b8b46768f.pnj" style="height: 48px; width: 48px">
+						<p style="text-shadow: 1px  1px 2px black; color: white; font-size: 0.75rem">Recycle Bin</p>
+					</div>
+					<div class="p-2 col-md-11 row no-gutters" style="position: absolute; bottom: 0; height: 300px; border: 1px solid rgba(181,228,234,0.5); background-image: linear-gradient(180deg, rgba(82, 84, 88, 0.3), rgba(27, 31, 41, 0.3), rgba(27, 31, 41, 0.5), rgba(27, 31, 41, 0.4),  rgba(82, 84, 88, 0.3), rgba(82, 84, 88, 0.1)); border-radius: 5px; box-shadow:0 0 5px rgba(0, 0, 0, 1); backdrop-filter:blur(5px);">
+						<div class="col-6" style="display: flex; justify-content: center; align-items: center; position: absolute; right: 0; margin-top: -50px">
+							<!-- PROFILE PICTURE-->
+							<img src="https://f2.toyhou.se/file/f2-toyhou-se/users/admin?6?0" style="position: absolute; width: 67px; height: 67px; border-radius: 2px">
+							<!-- THIS IS THE PFP BORDER! -->
+							<img src="https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/Windows%207%20border" style=" width: 100px; height: 100px;">
+						</div>
+						<!-- Navigation buttons - left -->
+						<div class="col-6 h-100 p-1" style="background-color: white; color: black; font-size: 0.66rem; position: relative; border: 1.5px solid #b0b0b0">
+							<div>
+								<i class="fa-solid fa-caret-right" style="margin-right: 5px; float: right; margin-top: 9px"></i>
+								<p><img src="https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/getting%20started.png" style="width: 25px"> Getting started
+								<p>
+							</div>
+							<div style="margin-top: -10px">
+								<p><img src="https://64.media.tumblr.com/f218f773677d27d364531e4bca023dbc/acefdd454762b960-30/s400x600/af6a0368cb2239227d862fe298ed5a17aadbe582.pnj" style="width: 24px"> Windows Media Center
+								<p>
+							</div>
+							<div style="margin-top: -10px; margin-left: -5px">
+								<p><img src="https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/windows%207%20calc.png" style="width: 32px"> <a href="#calculator" data-toggle="collapse" style="color: black">Calculator</a>
+								<p>
+							</div>
+							<div style="margin-top: -10px; margin-left: -3px">
+								<p><img src="https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/win7%20sticky%20notes.png" style="width: 32px"> Sticky Notes
+								<p>
+							</div>
+							<div style="margin-top: -10px; margin-left: -3px">
+								<p><img src="https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/paint%20icon.png" style="width: 26px"> <a href="#paint" data-toggle="collapse" style="color: black">Paint</a>
+								<p>
+							</div>
+							<div style="margin-top: -10px">
+								<p><img src="https://64.media.tumblr.com/f23c725b75990dd2cd7e569dd81b51d3/acefdd454762b960-fe/s400x600/5053cc2b48a559602cfcd365bad2894227bf1719.pnj" style="width: 24px"> 
+								<a href="#solitaire" data-toggle="collapse" style="color: black">Solitaire</a>
+								<p>
+							</div>
+							<div style="bottom: 0; position: absolute; left: 0; right: 0; width: 100%;">
+								<div class="card" style="background-color: #dbdfe7"></div>
+								<i class="fa-solid fa-caret-right" style="float: left; margin-top: 8px; margin-left: 5px"></i>
+								<p style="margin: 4px; font-size: 0.66rem; margin-left: 20px"><a href="#socials" style="color: black" data-toggle="collapse">All Programs</a></p>
+								<div class="card" style="background-color: #cbd4e2"></div>
+								<div class="p-2" style="width: 100%; background-color: #f1f5fb;">
+									<div style="background-color: white; border: solid 1.5px #c9c9c9; padding: 2px">
+										<img src="https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/win7%20search%20icon.png" style="float: right; width: 12px; margin: 2px">
+										<p style="font-size: 0.55rem; color: #979797"><i>Search programs and files...</i></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Navigation buttons - right -->
+						<div class="col-6 p-1">
+							<div style="height: 40px"></div> <!-- This is here just so there's a gap below the pfp bit... Don't touch it!-->
+							<div class="m-2" style="font-size: 0.66rem; color: white; text-shadow: 1px 1px 2px black">
+								<p><a href="#about" style="color: white" data-toggle="collapse">Username</a></p> <!-- Change this with your name!! :) -->
+								<p style="margin-top: -10px">
+									<a href="https://toyhou.se/YOURUSERHERE/literatures" style="color: white">Documents</a>
+								</p> <!-- Alternatively you can replace this to link to your characters! -->
+								<p style="margin-top: -10px">
+									<a href="https://toyhou.se/YOURUSERHERE/art" style="color: white"> Pictures</a>
+								</p>
+								<p style="margin-top: -10px"><a href="#music" style="color: white" data-toggle="collapse">Music</a></p>
+								<div class="card" style="background-color: rgba(0, 0, 0, 0.4); margin-top: -5px"></div>
+								<div class="card mb-3" style="background-color: rgba(255, 255, 255, 0.05)"></div>
+								<p style="margin-top: -7px"><a href="https://toyhou.se/YOURUSERHERE/stats" style="color:white">Control Panel</a></p>
+								<p style="margin-top: -7px"><a href="#socials" style="color: white" data-toggle="collapse">Default Programs</a></p>
+								<p style="margin-top: -7px"><a href="#popup" style="color: white" data-toggle="collapse">Help and Support</a></p>
+								<!-- This button also takes you back to the login screen! Sorry that it looks kinda ugly and sticks out, I couldn't find any nice transparent ones :( -->
+								<a class="btn" href="#carousel1" data-slide="next" style="bottom: 2px; position: absolute; margin-left: -20px">
+									<img src="https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/shutdown%20button.png" style="height: 20px"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Right side of the screen -->
+				<div class="col-md-7 col-12 mb-5 mt-4" style="overflow: visible; min-height: 100px">
+				    
+				    <!-- Credits! 
+				    Please do not remove these! I have made sure it fits into the HTML :) -->
+				    <a href="https://toyhou.se/42764466.f2u-windows-7-html" style="color: white">
+				    <div align="center" style="position: absolute; bottom: 0; right: 25px">
+						<img src="https://static.wikia.nocookie.net/logopedia/images/c/c4/Notepad_Vista_10.png/revision/latest?cb=20181031102045" style="height: 48px; width: 48px">
+						<p style="text-shadow: 1px  1px 2px black; color: white; font-size: 0.75rem">HTML.txt</p>
+					</div>
+					</a>
+					
+					<!-- About window -->
+					<div class="p-2 collapse" id="about">
+						<div class="pb-2" style="backdrop-filter:blur(5px); border: 1px solid rgba(181,228,234,0.5); background-image: linear-gradient(180deg, rgba(82, 84, 88, 0.3), rgba(27, 31, 41, 0.3), rgba(27, 31, 41, 0.5), rgba(27, 31, 41, 0.4),  rgba(82, 84, 88, 0.3), rgba(82, 84, 88, 0.1)); border-radius: 5px; box-shadow:0 0 5px rgba(0, 0, 0, 1); height: 300px; margin-top: -20px">
+							<!-- Title text!!! -->
+							<div style="position: absolute; margin: 2px">
+								<p style="font-size: 0.75rem; text-shadow: 1px 1px 2px black; color: white"><img src="https://static.wikia.nocookie.net/logopedia/images/0/00/User_Files_Windows_7.png/revision/latest?cb=20231223135213" style="width: 20px; margin: 5px"> About me!</p>
+							</div>
+							<!-- The window button things!-->
+							<div class="d-flex flex-row-reverse" style="margin-top: -1px; margin-right: 10px">
+								<div class="mb-2" style="border:1px solid #000000; border-top:none; border-radius: 0 0 5px 5px;">
+									<div class="d-flex flex-row text-center" style="width:9em;">
+										<div class="flex-fill" style=" border:1px solid rgba(181,228,234,0.5); outline:1px #000000 solid; border-radius: 0 0 0 5px">
+											<img src="https://file.garden/ZFbLzfVXdRSd8ekb/vistaminimise.png" alt="Minimise">
+										</div>
+										<div class="flex-fill" style=" border:1px solid rgba(181,228,234,0.5);">
+											<img src="https://file.garden/ZFbLzfVXdRSd8ekb/vistarestore.png" alt="Restore">
+										</div>
+										<div class="" style="width:4em; border:1px solid rgba(181,228,234,0.5); outline:1px #000000 solid; border-radius: 0 0 5px 0">
+											<a href="#about" data-toggle="collapse"><img src="https://file.garden/ZFbLzfVXdRSd8ekb/vistaclose.png" alt="Close"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="m-2 p-2" style="background-color: white; color: black; font-size: 0.66rem; position: relative; border: 1.5px solid #b0b0b0; height: 250px; border-radius: 2px; overflow: auto;">
+								<!-- Side image, remove if you want!! -->
+								<img src="https://file.garden/aFmhSmR8IWe0OTCd/Placeholders/placeholder%20chibi.png" style="float: right; width: 140px">
+								<!-- Put as much as you want! This box scrolls!! :) 
+                            
+                            Text-formatting:
+                            
+                            <b>Bold</b>
+                            <i>Italics</i>
+                            <u>Underline</u>
+                            <s>Strikethrough</s>
+                            <a href="URLHERE">Hyperlink</a>
+                            
+                            <br> = Like breaks
+                            
+                            -->
+								<p> Basically use this box to write whatever you want, if you're too stumped on what to write about yourself then I'd suggest to go keep it simple! Like your name, intrests and hobbies! </p>
+								<p> This box also scrolsl! :) <br> so don't worry about writing too much! You can also put in images so if you like blinkies or stamps you can go ham! Course you don't have to use them, remove them if you want to! </p>
+								<p>
+									<img src="https://64.media.tumblr.com/c15575f29a869b3658cd933d8c711d62/4636952e61093de2-d9/s250x400/5793131abb126587a1f04eb76d33bfac27053287.pnj">
+									<img src="https://64.media.tumblr.com/29edbdb26b369cb372380a44218294e3/4636952e61093de2-06/s250x400/b5c882635e1a9123b11da5b63660b941cd56b6e1.pnj">
+								</p>
+								<p>Too be fair.. You could paste in someone's "simple profiles codes" in here as an alternative! Like the ones that people do for rentries maybe? Probably do that if you're skilled in HTML!  Since like... Things can get janky QUICK! and You'd need to resize things!!!</p>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Music Window-->
+					<div class="p-2 collapse" id="music" style="position: absolute; width: 100%; bottom: 20px; left: 10px">
+						<div class="pb-2" style="backdrop-filter:blur(5px); border: 1px solid rgba(181,228,234,0.5); background-image: linear-gradient(180deg, rgba(82, 84, 88, 0.3), rgba(27, 31, 41, 0.3), rgba(27, 31, 41, 0.5), rgba(27, 31, 41, 0.4),  rgba(82, 84, 88, 0.3), rgba(82, 84, 88, 0.1)); border-radius: 5px; box-shadow:0 0 5px rgba(0, 0, 0, 1); height: 200px; margin-top: -20px; margin-left: 20px">
+							<!-- Title text!!! -->
+							<div style="position: absolute; margin: 2px">
+								<p style="font-size: 0.75rem; text-shadow: 1px 1px 2px black; color: white"><img src="https://static.wikia.nocookie.net/logopedia/images/5/5f/Wmp.png/revision/latest?cb=20220411140130" style="width: 20px; margin: 5px"> Media Player</p>
+							</div>
+							<!-- The window button things!-->
+							<div class="d-flex flex-row-reverse" style="margin-top: -1px; margin-right: 10px">
+								<div class="mb-2" style="border:1px solid #000000; border-top:none; border-radius: 0 0 5px 5px;">
+									<div class="d-flex flex-row text-center" style="width:9em;">
+										<div class="flex-fill" style=" border:1px solid rgba(181,228,234,0.5); outline:1px #000000 solid; border-radius: 0 0 0 5px">
+											<img src="https://file.garden/ZFbLzfVXdRSd8ekb/vistaminimise.png" alt="Minimise">
+										</div>
+										<div class="flex-fill" style=" border:1px solid rgba(181,228,234,0.5);">
+											<img src="https://file.garden/ZFbLzfVXdRSd8ekb/vistarestore.png" alt="Restore">
+										</div>
+										<div class="" style="width:4em; border:1px solid rgba(181,228,234,0.5); outline:1px #000000 solid; border-radius: 0 0 5px 0">
+											<a href="#music" data-toggle="collapse"><img src="https://file.garden/ZFbLzfVXdRSd8ekb/vistaclose.png" alt="Close"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="m-2 p-2" style="background-color: white; color: black; font-size: 0.75rem; position: relative; border: 1.5px solid #b0b0b0; height: 150px; border-radius: 2px; overflow: auto;">
+								<!-- Adjust the col if it acting up!-->
+								<div class="card bg-primary col-md-5 col-2" style="margin-top: 10px; position: absolute; right: 10px;"></div>
+								<div style="background-color: white;">
+									<h4 class="text-primary">Username - "Songs I like!"</h4>
+								</div>
+								<!-- Music Player tutorial
+                                            https://toyhou.se/6560537.-audio-player-tutorial-f2u-
+                                        -->
+								<div>
+									<p> 01 Song Title - Song Artist</p>
+									<audio controls="" style="height: 15px; float:right; margin-top: -15px" class="col-6">
+										<source src="https://file.garden/aFmhSmR8IWe0OTCd/youtube-dQw4w9WgXcQ.24235719.mp3">
+									</audio>
+								</div>
+								<div>
+									<p> 02 Song Title - Song Artist</p>
+									<audio controls="" style="height: 15px; float:right; margin-top: -15px" class="col-6">
+										<source src="MP3LINK">
+									</audio>
+								</div>
+								<div>
+									<p> 03 Song Title - Song Artist</p>
+									<audio controls="" style="height: 15px; float:right; margin-top: -15px" class="col-6">
+										<source src="MP3LINK">
+									</audio>
+								</div>
+								<div>
+									<p> 04 Song Title - Song Artist</p>
+									<audio controls="" style="height: 15px; float:right; margin-top: -15px" class="col-6">
+										<source src="MP3LINK">
+									</audio>
+								</div>
+								<!-- Feel free to add more! This scrolls!-->
+							</div>
+						</div>
+					</div>
+					
+					<!-- Socials Window-->
+					<div class="p-2 collapse" id="socials" style="position: absolute; width: 90%; bottom: -30px; right: 80px">
+						<div class="pb-2" style="backdrop-filter:blur(5px); border: 1px solid rgba(181,228,234,0.5); background-image: linear-gradient(180deg, rgba(82, 84, 88, 0.3), rgba(27, 31, 41, 0.3), rgba(27, 31, 41, 0.5), rgba(27, 31, 41, 0.4),  rgba(82, 84, 88, 0.3), rgba(82, 84, 88, 0.1)); border-radius: 5px; box-shadow:0 0 5px rgba(0, 0, 0, 1); height: 200px; margin-top: -20px; margin-left: 20px">
+							<!-- Title text!!! -->
+							<div style="position: absolute; margin: 2px">
+								<p style="font-size: 0.75rem; text-shadow: 1px 1px 2px black; color: white">
+								    <img src="https://file.garden/aSNGmagJVyaawvlv/Untitled1578_20260625165138.png" style="width: 20px; margin: 5px">
+								    <img src="https://imgs.search.brave.com/tfAkBrYMRJfHbAb0JB1AmjTk6hs1wYkkERpTJXb3-qQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Z0Y2RuLm5l/dC9pbWFnZXMvdF9h/cHAtaWNvbi1zL3Av/OTBjZDhjMjQtOWIy/Yy0xMWU2LWIyMWIt/MDAxNjNlYzlmNWZh/LzE2OTY0MDM4MTcv/ZGVmYXVsdC1wcm9n/cmFtcy1lZGl0b3It/bG9nby5wbmc" style="width: 20px; margin: 5px; margin-left: -5px">
+								    Default Programs Editor</p>
+							</div>
+							<!-- The window button things!-->
+							<div class="d-flex flex-row-reverse" style="margin-top: -1px; margin-right: 10px">
+								<div class="mb-2" style="border:1px solid #000000; border-top:none; border-radius: 0 0 5px 5px;">
+									<div class="d-flex flex-row text-center" style="width:4em;">
+										
+										<div class="" style="width:4em; border:1px solid rgba(181,228,234,0.5); outline:1px #000000 solid; border-radius: 0 0 5px 5px">
+											<a href="#socials" data-toggle="collapse"><img src="https://file.garden/ZFbLzfVXdRSd8ekb/vistaclose.png" alt="Close"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="m-2 p-2" style="background-color: white; color: black; font-size: 0.75rem; position: relative; border: 1.5px solid #b0b0b0; height: 150px; border-radius: 2px; overflow: auto;">
+								<p class="text-primary" style="font-size: 1rem; margin-left: 1rem">Program Options</p>
+								
+								<!-- If these stick out funny then adjust the widths of them! You don't have to use all of these if you don't have the socials here! -->
+								
+								<!-- Social 1 (YouTube)-->
+								<a href="URLHERE" style="color: black">
+								<div style="border: 1px solid rgba(181,228,234,0.5); background-image: linear-gradient(360deg, rgba(82, 84, 88, 0.3), rgba(27, 31, 41, 0.3),  rgba(27, 31, 41, 0.4),  rgba(180,184,192,0.2), rgba(180,184,192,0.1)); border-radius: 5px; height: 1.5rem; margin-left: 1rem; margin-top: 1rem; width: 175px; padding: 2.5px; color: black">
+								    
+								    <p style="margin-left: 0.5rem; margin-right: 0.5rem"><i class="fa-brands fa-youtube"></i> YTUsername - YouTube</p>
+								    </div></a>
+								    
+								<!-- Social 2 (Artfight)-->
+								<a href="URLHERE" style="color: black">
+								<div style="border: 1px solid rgba(181,228,234,0.5); background-image: linear-gradient(360deg, rgba(82, 84, 88, 0.3), rgba(27, 31, 41, 0.3),  rgba(27, 31, 41, 0.4),  rgba(180,184,192,0.2), rgba(180,184,192,0.1)); border-radius: 5px; height: 1.5rem; margin-left: 1rem; margin-top: 0.25rem; width: 175px; padding: 2.5px; color: black">
+								    
+								    <p style="margin-left: 0.5rem; margin-right: 0.5rem"><i class="fa-solid fa-pen-paintbrush"></i> AFUsername - Artfight</p>
+								    </div></a>
+								    
+								<!-- Social 3 (TikTok)-->
+								<a href="URLHERE" style="color: black">
+								<div style="border: 1px solid rgba(181,228,234,0.5); background-image: linear-gradient(360deg, rgba(82, 84, 88, 0.3), rgba(27, 31, 41, 0.3),  rgba(27, 31, 41, 0.4),  rgba(180,184,192,0.2), rgba(180,184,192,0.1)); border-radius: 5px; height: 1.5rem; margin-left: 1rem; margin-top: 0.25rem; width: 175px; padding: 2.5px; color: black">
+								    
+								    <p style="margin-left: 0.5rem; margin-right: 0.5rem"><i class="fa-brands fa-tiktok"></i> TTUsername - TikTok</p>
+								    </div></a>
+								    
+								<!-- OTHER SOCIAL - FEEL FREE TO COPY AND PASTE TO PUT MORE OF THESE!-->
+								<a href="URLHERE" style="color: black">
+								<div style="border: 1px solid rgba(181,228,234,0.5); background-image: linear-gradient(360deg, rgba(82, 84, 88, 0.3), rgba(27, 31, 41, 0.3),  rgba(27, 31, 41, 0.4),  rgba(180,184,192,0.2), rgba(180,184,192,0.1)); border-radius: 5px; height: 1.5rem; margin-left: 1rem; margin-top: 0.25rem; width: 150px; padding: 2.5px; color: black">
+								    
+								    <p style="margin-left: 0.5rem; margin-right: 0.5rem"><i class="fa-solid fa-circle-user"></i> Username - Social</p>
+								    </div></a>
+								    
+								<a href="https://toyhou.se/YOURUSERHERE/comments"><p class="mt-3 mb-2 ml-3"><u>Send a comment, suggestion, or bug report</u></p></a>
+							
+							</div>
+						</div>
+					</div>
+					
+					<!-- Solitaire Window-->
+					<div class="p-2 collapse" id="solitaire" style="position: absolute; width: 70%; top: -10px; left: 10px">
+						<div class="pb-2" style="backdrop-filter:blur(5px); border: 1px solid rgba(181,228,234,0.5); background-image: linear-gradient(180deg, rgba(82, 84, 88, 0.3), rgba(27, 31, 41, 0.3), rgba(27, 31, 41, 0.5), rgba(27, 31, 41, 0.4),  rgba(82, 84, 88, 0.3), rgba(82, 84, 88, 0.1)); border-radius: 5px; box-shadow:0 0 5px rgba(0, 0, 0, 1);  margin-top: -20px; margin-left: 20px">
+							<!-- Title text!!! -->
+							<div style="position: absolute; margin: 2px">
+								<p style="font-size: 0.75rem; text-shadow: 1px 1px 2px black; color: white">
+								    <img src="https://64.media.tumblr.com/f23c725b75990dd2cd7e569dd81b51d3/acefdd454762b960-fe/s400x600/5053cc2b48a559602cfcd365bad2894227bf1719.pnj" style="width: 20px; margin: 5px">
+								    
+								     Solitaire</p>
+							</div>
+							<!-- The window button things!-->
+							<div class="d-flex flex-row-reverse" style="margin-top: -1px; margin-right: 10px">
+								<div class="mb-2" style="border:1px solid #000000; border-top:none; border-radius: 0 0 5px 5px;">
+									<div class="d-flex flex-row text-center" style="width:9em;">
+										<div class="flex-fill" style=" border:1px solid rgba(181,228,234,0.5); outline:1px #000000 solid; border-radius: 0 0 0 5px">
+											<img src="https://file.garden/ZFbLzfVXdRSd8ekb/vistaminimise.png" alt="Minimise">
+										</div>
+										<div class="flex-fill" style=" border:1px solid rgba(181,228,234,0.5);">
+											<img src="https://file.garden/ZFbLzfVXdRSd8ekb/vistarestore.png" alt="Restore">
+										</div>
+										<div class="" style="width:4em; border:1px solid rgba(181,228,234,0.5); outline:1px #000000 solid; border-radius: 0 0 5px 0">
+											<a href="#solitaire" data-toggle="collapse"><img src="https://file.garden/ZFbLzfVXdRSd8ekb/vistaclose.png" alt="Close"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="m-2" style="background-color: white; color: black; font-size: 0.75rem; position: relative; border: 1.5px solid #b0b0b0;  border-radius: 2px;">
+								
+								<div style="border: 1px solid rgba(181,228,234,0.5); background-image: linear-gradient(360deg, rgba(82, 84, 88, 0.3), rgba(27, 31, 60, 0.3),  rgba(27, 31, 60, 0.3),  rgba(180,184,200,0.1), rgba(180,184,192,0.05)); height: 1.5rem; padding: 2.5px; color: black">
+								    
+								    <div class="row no-gutters">
+								        <div style="margin-left: 0.75rem"><p>Game</p></div>
+								        <div style="margin-left: 0.75rem"><p>Help</p></div>
+								    </div>
+								    
+								    </div>
+								
+								<img src="https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/win7%20solrtisce%20whatever.png" style="width: 100%">
+								
+								<div style="border: 1.5px solid rgba(208,208,208,0.2); background-color: #ededed; height: 1.5rem; color: black">
+								    
+								        <div class="row no-gutters"  style="float: right; height: 100%; margin-top: -2px; margin-right: -2.5px">
+								            <div style="border: 1px solid #b0b0b0; padding: 3px; width: 4rem"> Time: 0</div>
+								            <div style="border: 1px solid #b0b0b0; padding: 3px; width: 6rem"> Score: 0</div>
+								        </div>
+								    
+								    </div>
+							
+							</div>
+						</div>
+					</div>
+					
+					<!-- Paint Window-->
+					<div class="p-2 collapse" id="paint" style="position: absolute; width: 80%; top: 50px; right: 30px">
+						<div class="pb-2" style="backdrop-filter:blur(5px); border: 1px solid rgba(181,228,234,0.5); background-image: linear-gradient(180deg, rgba(82, 84, 88, 0.3), rgba(27, 31, 41, 0.3), rgba(27, 31, 41, 0.5), rgba(27, 31, 41, 0.4),  rgba(82, 84, 88, 0.3), rgba(82, 84, 88, 0.1)); border-radius: 5px; box-shadow:0 0 5px rgba(0, 0, 0, 1);  margin-top: -20px; margin-left: 20px">
+							<!-- Title text!!! -->
+							<div style="position: absolute; margin: 2px">
+								<p style="font-size: 0.75rem; text-shadow: 1px 1px 2px black; color: white">
+								    <img src="https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/paint%20icon.png" style="width: 20px; margin: 5px">
+								    
+								     Untitled - Paint</p>
+							</div>
+							<!-- The window button things!-->
+							<div class="d-flex flex-row-reverse" style="margin-top: -1px; margin-right: 10px">
+								<div class="mb-2" style="border:1px solid #000000; border-top:none; border-radius: 0 0 5px 5px;">
+									<div class="d-flex flex-row text-center" style="width:9em;">
+										<div class="flex-fill" style=" border:1px solid rgba(181,228,234,0.5); outline:1px #000000 solid; border-radius: 0 0 0 5px">
+											<img src="https://file.garden/ZFbLzfVXdRSd8ekb/vistaminimise.png" alt="Minimise">
+										</div>
+										<div class="flex-fill" style=" border:1px solid rgba(181,228,234,0.5);">
+											<img src="https://file.garden/ZFbLzfVXdRSd8ekb/vistarestore.png" alt="Restore">
+										</div>
+										<div class="" style="width:4em; border:1px solid rgba(181,228,234,0.5); outline:1px #000000 solid; border-radius: 0 0 5px 0">
+											<a href="#paint" data-toggle="collapse"><img src="https://file.garden/ZFbLzfVXdRSd8ekb/vistaclose.png" alt="Close"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<!-- use any image here! Like your own art! :)-->
+							<div class="m-2" style="background-image: url(https://placehold.co/600x400); color: black; font-size: 0.75rem; position: relative; border: 1.5px solid #b0b0b0;  border-radius: 2px; background-size: cover">
+								
+								<img src="https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/win7%20paint.png">
+							
+							</div>
+						</div>
+					</div>
+					
+					<!-- Calculator Window-->
+					<div class="p-2 collapse" id="calculator" style="position: absolute; width: 60%; top: 0px; right: 30px">
+						<div class="pb-2" style="backdrop-filter:blur(5px); border: 1px solid rgba(181,228,234,0.5); background-image: linear-gradient(180deg, rgba(82, 84, 88, 0.3), rgba(27, 31, 41, 0.3), rgba(27, 31, 41, 0.5), rgba(27, 31, 41, 0.4),  rgba(82, 84, 88, 0.3), rgba(82, 84, 88, 0.1)); border-radius: 5px; box-shadow:0 0 5px rgba(0, 0, 0, 1);  margin-top: -20px; margin-left: 20px">
+							<!-- Title text!!! -->
+							<div style="position: absolute; margin: 2px">
+								<p style="font-size: 0.75rem; text-shadow: 1px 1px 2px black; color: white">
+								    <img src="https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/windows%207%20calc.png" style="width: 20px; margin: 5px">
+								    
+								     Calculator</p>
+							</div>
+							<!-- The window button things!-->
+							<div class="d-flex flex-row-reverse" style="margin-top: -1px; margin-right: 10px">
+								<div class="mb-2" style="border:1px solid #000000; border-top:none; border-radius: 0 0 5px 5px;">
+									<div class="d-flex flex-row text-center" style="width:9em;">
+										<div class="flex-fill" style=" border:1px solid rgba(181,228,234,0.5); outline:1px #000000 solid; border-radius: 0 0 0 5px">
+											<img src="https://file.garden/ZFbLzfVXdRSd8ekb/vistaminimise.png" alt="Minimise">
+										</div>
+										<div class="flex-fill" style=" border:1px solid rgba(181,228,234,0.5);">
+											<img src="https://file.garden/ZFbLzfVXdRSd8ekb/vistarestore.png" alt="Restore">
+										</div>
+										<div class="" style="width:4em; border:1px solid rgba(181,228,234,0.5); outline:1px #000000 solid; border-radius: 0 0 5px 0">
+											<a href="#calculator" data-toggle="collapse"><img src="https://file.garden/ZFbLzfVXdRSd8ekb/vistaclose.png" alt="Close"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							
+							<div class="m-2" style="background-color: white; color: black; font-size: 0.75rem; position: relative; border: 1.5px solid #b0b0b0;  border-radius: 2px; background-size: cover">
+								
+								<img src="https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/win7%20calculator.png">
+							
+							</div>
+						</div>
+					</div>
+				
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+<!-- Question pop-up for anyone confused who comes across your profile!
+Course edit this a little if you change some of the functions of the buttons!
+ -->
+	<div class="collapse" id="popup">
+		<div class="fixed-bottom p-2" style="top:0px;bottom:0px;left:0px;background: rgba(0,0,0,.6);">
+			<br><br><br><br><br><br><br>
+			<div class="d-flex justify-content-center">
+				<div class="col-10 col-md-8 col-lg-6 col-xl-5 col-auto">
+					<div align="center">
+						<div class="card mb">
+							<div class="card-block bg-faded p-3">
+								<p>Press the profile picture or the '<img src="https://file.garden/aFmhSmR8IWe0OTCd/Windows%207%20assets/windows%207%20button%20wow.png" style="width: 24px">' to enter! <br><br> Once on the main screen, click around! There is a lot of interactables which will make windows pop-up! :) <br>
+									<br></p>
+									
+									<a href="#help" data-toggle="collapse"><p><b>"What do I click on?"</b></p></a>
+									<div class="col-11 col-md-8 collapse" id="help" style="overflow: auto; max-height: 80px">
+									    <ul>
+									        <li>"Username" opens About me</li>
+									        <li>"Documents" and "Pictures" open Links to Library and Pictures</li>
+									        <li>"Music" opens Music I like</li>
+									        <li>"Default programs" opens socials</li>
+									        <li>Control Panel leads to user stats!</li>
+									        <li>There are some easter eggs hidden around too! :)</li>
+									    </ul>
+									</div>
+									<br>
+									<a class="btn btn-sm  btn-default" data-toggle="collapse" href="#popup">Close Box</a>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
